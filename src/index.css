@@ -44,22 +44,34 @@ button {
   @apply flex items-center gap-4;
 }
 
+.cards {
+  @apply flex gap-5;
+}
+
 .animalBox {
-  @apply p-4 mx-auto border rounded-md shadow-2xl shadow-indigo-500/30 w-fit mt-9;
+  @apply p-4 border rounded-md shadow-2xl shadow-indigo-500/30 w-fit mt-9;
 }
 
 .animalHeadline {
-  @apply text-6xl underline mb-5
+  @apply mb-5 text-6xl underline;
+}
+
+.headlineEmpty {
+  @apply text-lg font-bold;
 }
 
 .animalList {
-  @apply text-2xl leading-10
+  @apply text-2xl leading-10;
 }
 
 
 @media (max-width: 768px) {
   .ap-navigation {
     @apply flex-col h-40 py-3;
+  }
+
+  .cards {
+    @apply flex-col;
   }
 
 }

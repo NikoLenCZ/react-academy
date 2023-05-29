@@ -5,7 +5,7 @@ export const Animal = (props) => {
 
   return (
     <div className='animalBox'>
-    {animal.length === 0 ? (<h1>This zoo is too empty 😢</h1>)
+    {animal.length === 0 ? (<h1 className='headlineEmpty'>This zoo is too empty 😢</h1>)
     :
     (
       <>
