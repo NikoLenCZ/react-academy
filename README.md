@@ -1,4 +1,4 @@
-# 📝 Na slovíčko - klon hry Worlde
+# 📝 Akademie s ReactGirls
 
 Repozitář pro intenzivní kurz [React Academy](https://reactgirls.com/akademie) od komunity React Girls.
 
