@@ -45,7 +45,7 @@ button {
 }
 
 .cards {
-  @apply flex gap-5;
+  @apply flex justify-center gap-5;
 }
 
 .animalBox {
