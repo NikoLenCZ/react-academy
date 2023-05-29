@@ -4,25 +4,6 @@ Repozitář pro intenzivní kurz [React Academy](https://reactgirls.com/akademie
 
 ---
 
-
-## 📜 Témata
-
-- Úvod do Reactu, instalace prostředí, tvorba první komponenty
-- Tvorba komponent, props a state, useState, stylování komponent
-- useEffect a propojení s backendem
-- Tvorba vlastní aplikace
-
----
-
-## 🧭 Záverečný projekt
-
-### OpenAI React aplikace - Explain code
-
-Naše webová aplikace bude vytvořena za pomocí knihovny React a propojená s OpenAI API. Bude mít textový input, do kterého budeme vkládat kód a s využitím OpenAI dostaneme vysvětlení toho, co kód dělá. Zároveň si vyzkoušíme vše od vytvoření nové react aplikace, přes tvorbu komponent, využití hooku useState a useEffect a připojení API k aplikaci.
-
-
----
-
 ## 🏗️ Vytvořeno s:
 
 - create-react-app
@@ -42,3 +23,21 @@ Naše webová aplikace bude vytvořena za pomocí knihovny React a propojená s 
 ## 👀 live stránka:
 
 výsledná stránka: https://nikolencz.github.io/react-academy
+
+## 📜 Témata kurzu
+
+- Úvod do Reactu, instalace prostředí, tvorba první komponenty
+- Tvorba komponent, props a state, useState, stylování komponent
+- useEffect a propojení s backendem
+- Tvorba vlastní aplikace
+
+---
+
+## 🧭 Záverečný projekt
+
+### OpenAI React aplikace - Explain code
+
+Naše webová aplikace bude vytvořena za pomocí knihovny React a propojená s OpenAI API. Bude mít textový input, do kterého budeme vkládat kód a s využitím OpenAI dostaneme vysvětlení toho, co kód dělá. Zároveň si vyzkoušíme vše od vytvoření nové react aplikace, přes tvorbu komponent, využití hooku useState a useEffect a připojení API k aplikaci.
+
+
+---
