@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@layer components {
+  .ap-navigation {
+  @apply flex items-center justify-between h-20 px-5 shadow-lg shadow-indigo-500/30 text-slate-100 bg-indigo-950;
 }
+
+.ap-nav-logo {
+ @apply font-serif text-2xl italic font-bold text-white;
+}
+
+button {
+  @apply px-4 py-2 border-2 border-indigo-100 border-solid rounded-full;
+}
+
+.ap-button-primary {
+  @apply bg-indigo-800;
+}
+
+.ap-button-primary:hover {
+  @apply bg-indigo-700;
+}
+
+.ap-button-secundary {
+  @apply bg-indigo-950;
+}
+
+.ap-button-secundary:hover {
+  @apply bg-indigo-700;
+}
+
+.ap-nav-list {
+  @apply flex gap-8;
+}
+
+.ap-btn-box {
+  @apply flex items-center gap-4;
+}
+
+.animalBox {
+  @apply p-4 mx-auto border rounded-md shadow-2xl shadow-indigo-500/30 w-fit mt-9;
+}
+
+.animalHeadline {
+  @apply text-6xl underline mb-5
+}
+
+.animalList {
+  @apply text-2xl leading-10
+}
+
+
+@media (max-width: 768px) {
+  .ap-navigation {
+    @apply flex-col h-40 py-3;
+  }
+
+}
+
+}
+

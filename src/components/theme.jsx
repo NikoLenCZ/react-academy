@@ -1,0 +1,11 @@
+export const ButtonType = {
+  primary: "bg-indigo-800 hover:bg-indigo-700 border-indigo-400",
+  secondary: "bg-indigo-950 hover:bg-indigo-800",
+};
+
+export const ButtonSize = {
+  sm: "py-2 px-4 text-sm",
+  base: "text-base py-2 px-4",
+  lg: "py-2 px-4 text-lg"
+}
+
