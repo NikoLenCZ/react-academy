@@ -17,6 +17,8 @@ Repozitář pro intenzivní kurz [React Academy](https://reactgirls.com/akademie
 - použít metodu .map()
 - použít props
 - stylování komponent pomocí Tailwindu
+- useState
+- useEffect
 
 ---
 
