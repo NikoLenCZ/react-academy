@@ -1,6 +1,6 @@
 export const ButtonType = {
-  primary: "bg-indigo-800 hover:bg-indigo-700 border-indigo-400",
-  secondary: "bg-indigo-950 hover:bg-indigo-800",
+  primary: "bg-indigo-800 hover:bg-indigo-700 border-indigo-400 text-slate-100",
+  secondary: "bg-indigo-950 hover:bg-indigo-800 text-slate-100",
 };
 
 export const ButtonSize = {

@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "./Button";
 
-const List = (props) => {
+const List = ({menu, nadpis, handleAddMenu, handleDeleteMenu}) => {
   // const menuItems = props.menuItems;
   // const nadpis = props.nadpis;
 
   // destructuring
-  const { menuItems, nadpis } = props;
+  // const { menu, nadpis, handleAddMenu, handleDeleteMenu } = props;
 
   // const menuItems = [];
 
@@ -14,31 +14,33 @@ const List = (props) => {
   //   return <p>menu je prázdné!</p>;
   // }
 
-  const handleDeleteMenu = () => {
-    console.log("smazal jsi menu!");
-  };
+  // const handleDeleteMenu = () => {
+  //   console.log("smazal jsi menu!");
+  //   setMenu([])
+  // };
 
-  const handleAddMenu = () => {
-    console.log("vložil jsi menu ;-)");
-  };
+  // const handleAddMenu = () => {
+  //   console.log("vložil jsi menu ;-)");
+  //   setMenu(["Úvod", "O nás", "Kontakt"])
+  // };
 
   return (
     <nav className="ap-navigation">
       <h1 className="ap-nav-logo">{nadpis}</h1>
 
-      {menuItems.length === 0 ? (
-        <p>menuItems je prázdné</p>
+      {menu.length === 0 ? (
+        <p>Menu je prázdné</p>
       ) : (
         <ul className="ap-nav-list">
-          {menuItems.map((item, index) => (
+          {menu.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
       )}
 
 <div className="ap-btn-box">
-  <Button type="primary" size="lg" onClick={handleDeleteMenu}>smaž menu</Button>
-  <Button type="secondary" size="sm" onClick={handleAddMenu}>přidej menu</Button>
+  <Button handleDeleteMenu={handleDeleteMenu} type="primary" size="lg" onClick={handleDeleteMenu}>smaž menu</Button>
+  <Button handleAddMenu={handleAddMenu} type="secondary" size="sm" onClick={handleAddMenu}>přidej menu</Button>
 </div>
 
     </nav>

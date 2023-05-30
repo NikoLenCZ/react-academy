@@ -49,7 +49,7 @@ button {
 }
 
 .animalBox {
-  @apply p-4 border rounded-md shadow-2xl shadow-indigo-500/30 w-fit mt-9;
+  @apply p-4 border rounded-md shadow-md shadow-indigo-500/30 w-fit mt-9;
 }
 
 .animalHeadline {
