@@ -7,13 +7,13 @@ const ProductList = () => {
   const [category, setCategory] = useState("");
 
   return (
-    <div>
-      <select onChange={(event) => setCategory(event.target.value)}>
+    <div className="container flex gap-8 my-12 md:w-[50rem] mx-auto">
+      <select className="border rounded border-slate-500 w-36" onChange={ (event) => setCategory(event.target.value) }>
         <option value=""></option>
         <option value="Category 1">Category 1</option>
         <option value="Category 2">Category 2</option>
       </select>
-      <Products category={category} />
+      <Products category={ category } />
     </div>
   );
 };

@@ -18,12 +18,12 @@ function App() {
 
   const handleDeleteMenu = () => {
     console.log("smazal jsi menu!");
-    setMenu([])
+    setMenu([]);
   };
 
   const handleAddMenu = () => {
     console.log("vložil jsi menu ;-)");
-    setMenu(["Úvod", "O nás", "Kontakt"])
+    setMenu(["Úvod", "O nás", "Kontakt"]);
   };
 
   // const handleDeleteMenu2 = () => {
@@ -39,16 +39,16 @@ function App() {
   return (
     <>
       <List
-      menu={menu}
-      handleAddMenu={handleAddMenu}
-      handleDeleteMenu={handleDeleteMenu}
-      nadpis="React Girls" />
+        menu={ menu }
+        handleAddMenu={ handleAddMenu }
+        handleDeleteMenu={ handleDeleteMenu }
+        nadpis="React Girls" />
       <div className="cards">
-      <Animal>Animals</Animal>
-      <Animal>Animals</Animal>
-      <Animal>Animals</Animal>
+        <Animal>Animals</Animal>
+        <Animal>Animals</Animal>
+        <Animal>Animals</Animal>
 
-      {/* <Animal animal={animalsOne}>Animals</Animal>
+        {/* <Animal animal={animalsOne}>Animals</Animal>
       <Animal animal={animalsTwo}>Animals</Animal>
       <Animal animal={animalsThree}>Animals</Animal> */}
       </div>

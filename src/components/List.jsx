@@ -24,6 +24,7 @@ const List = ({menu, nadpis, handleAddMenu, handleDeleteMenu}) => {
   //   setMenu(["Úvod", "O nás", "Kontakt"])
   // };
 
+
   return (
     <nav className="ap-navigation">
       <h1 className="ap-nav-logo">{nadpis}</h1>
